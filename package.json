@@ -1,0 +1,36 @@
+{
+  "name": "@luckyfinance/hardhat-framework",
+  "version": "1.0.0",
+  "description": "Common test utilities for hardhat development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckyDogeDev/hardhat-framework.git"
+  },
+  "author": "BoringCrypto, Keno, I'm Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuckyDogeDev/hardhat-framework/issues"
+  },
+  "homepage": "https://github.com/LuckyDogeDev/hardhat-framework#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.2.2",
+    "ethers": "^5.0.31",
+    "hardhat": "^2.0.10",
+    "hardhat-deploy": "^0.7.0-beta.44",
+    "hardhat-gas-reporter": "^1.0.4",
+    "husky": "^5.0.9",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.5",
+    "pretty-quick": "^3.1.0",
+    "solc": "0.6.12",
+    "solidity-coverage": "^0.7.14"
+  }
+}
